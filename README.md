@@ -1,24 +1,24 @@
-Virtual Assistant
+##Virtual Assistant
 The Virtual Assistant is a Python program that listens for user commands through a microphone, recognizes the commands using speech recognition, performs a Wikipedia search based on the recognized command, and reads out the summary using text-to-speech.
 
-Features
+##Features
 Speech Recognition: Utilizes the speech_recognition library to recognize speech input from the user.
 Natural Language Understanding: Interprets user commands and performs actions based on the recognized text.
 Wikipedia Integration: Retrieves relevant information from Wikipedia based on the user's command.
 Text-to-Speech: Utilizes the pyttsx3 library to convert text into spoken audio for user feedback.
-Requirements
+##Requirements
 Python 3.x
 speech_recognition library (install via pip install SpeechRecognition)
 pyttsx3 library (install via pip install pyttsx3)
 Internet connection for speech recognition and Wikipedia search.
-Usage
+##Usage
 Install the required libraries using pip:
 
-Copy code
+##Copy code
 pip install SpeechRecognition pyttsx3
 Run the virassistant.py script:
 
-Copy code
+##Copy code
 python virassistant.py
 Clear background noises by following the on-screen instructions.
 
